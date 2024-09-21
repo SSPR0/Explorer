@@ -1,5 +1,5 @@
 {
-  "global": {
+  "global/global": {
     "gray": {
       "10": {
         "value": "#f5f7fa",
@@ -84,45 +84,45 @@
         "type": "color"
       }
     },
-    "blue": {
+    "sky": {
       "10": {
-        "value": "#f0f5fc",
+        "value": "#e8f4fa",
         "type": "color"
       },
       "20": {
-        "value": "#cfe0fc",
+        "value": "#bbe5fa",
         "type": "color"
       },
       "30": {
-        "value": "#accbfc",
+        "value": "#8dd4f7",
         "type": "color"
       },
       "40": {
-        "value": "#84b1fa",
+        "value": "#53baed",
         "type": "color"
       },
       "50": {
-        "value": "#5691f0",
+        "value": "#229ad6",
         "type": "color"
       },
       "60": {
-        "value": "#3272d9",
+        "value": "#0c7bb3",
         "type": "color"
       },
       "70": {
-        "value": "#1d5bbf",
+        "value": "#066391",
         "type": "color"
       },
       "80": {
-        "value": "#114599",
+        "value": "#064d70",
         "type": "color"
       },
       "90": {
-        "value": "#103570",
+        "value": "#093952",
         "type": "color"
       },
       "100": {
-        "value": "#15233b",
+        "value": "#0c2938",
         "type": "color"
       }
     },
@@ -252,7 +252,7 @@
         "type": "color"
       }
     },
-    "celery": {
+    "teal": {
       "10": {
         "value": "#e4f7f6",
         "type": "color"
@@ -294,7 +294,7 @@
         "type": "color"
       }
     },
-    "chartreuse": {
+    "magenta": {
       "10": {
         "value": "#faf0f4",
         "type": "color"
@@ -333,6 +333,16 @@
       },
       "100": {
         "value": "#421527",
+        "type": "color"
+      }
+    },
+    "neutral": {
+      "black": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "white": {
+        "value": "#ffffff",
         "type": "color"
       }
     }
@@ -844,492 +854,492 @@
   "Sizes/base": {
     "border-radius": {
       "radius-4": {
-        "value": "4px",
-        "type": "dimension"
+        "value": 4,
+        "type": "number"
       },
       "radius-6": {
-        "value": "6px",
-        "type": "dimension"
+        "value": 6,
+        "type": "number"
       },
       "radius_8": {
-        "value": "8px",
-        "type": "dimension"
+        "value": 8,
+        "type": "number"
       },
       "radius_10": {
-        "value": "10px",
-        "type": "dimension"
+        "value": 10,
+        "type": "number"
       },
       "radius_12": {
-        "value": "12px",
-        "type": "dimension"
+        "value": 12,
+        "type": "number"
       },
       "radius_16": {
-        "value": "16px",
-        "type": "dimension"
+        "value": 16,
+        "type": "number"
       },
       "radius_20": {
-        "value": "20px",
-        "type": "dimension"
+        "value": 20,
+        "type": "number"
       },
       "radius_24": {
-        "value": "24px",
-        "type": "dimension"
+        "value": 24,
+        "type": "number"
       },
       "radius_full": {
-        "value": "999px",
-        "type": "dimension"
+        "value": 999,
+        "type": "number"
       }
     },
     "spacing": {
       "spacing-0": {
-        "value": "0px",
-        "type": "dimension"
+        "value": 0,
+        "type": "number"
       },
       "spacing-2": {
-        "value": "2px",
-        "type": "dimension"
+        "value": 2,
+        "type": "number"
       },
       "spacing-4": {
-        "value": "4px",
-        "type": "dimension"
+        "value": 4,
+        "type": "number"
       },
       "spacing-8": {
-        "value": "8px",
-        "type": "dimension"
+        "value": 8,
+        "type": "number"
       },
       "spacing-12": {
-        "value": "12px",
-        "type": "dimension"
+        "value": 12,
+        "type": "number"
       },
       "spacing-16": {
-        "value": "16px",
-        "type": "dimension"
+        "value": 16,
+        "type": "number"
       },
       "spacing-18": {
-        "value": "18px",
-        "type": "dimension"
+        "value": 18,
+        "type": "number"
       },
       "spacing-20": {
-        "value": "20px",
-        "type": "dimension"
+        "value": 20,
+        "type": "number"
       },
       "spacing-24": {
-        "value": "24px",
-        "type": "dimension"
+        "value": 24,
+        "type": "number"
       },
       "spacing-28": {
-        "value": "28px",
-        "type": "dimension"
+        "value": 28,
+        "type": "number"
       },
       "spacing-32": {
-        "value": "32px",
-        "type": "dimension"
+        "value": 32,
+        "type": "number"
       },
       "spacing-36": {
-        "value": "36px",
-        "type": "dimension"
+        "value": 36,
+        "type": "number"
       },
       "spacing-40": {
-        "value": "40px",
-        "type": "dimension"
+        "value": 40,
+        "type": "number"
       },
       "spacing-48": {
-        "value": "48px",
-        "type": "dimension"
+        "value": 48,
+        "type": "number"
       },
       "spacing-56": {
-        "value": "56px",
-        "type": "dimension"
+        "value": 56,
+        "type": "number"
       },
       "spacing-64": {
-        "value": "64px",
-        "type": "dimension"
+        "value": 64,
+        "type": "number"
       },
       "spacing-72": {
-        "value": "72px",
-        "type": "dimension"
+        "value": 72,
+        "type": "number"
       },
       "spacing-80": {
-        "value": "80px",
-        "type": "dimension"
+        "value": 80,
+        "type": "number"
       },
       "spacing-96": {
-        "value": "96px",
-        "type": "dimension"
+        "value": 96,
+        "type": "number"
       },
       "spacing-112": {
-        "value": "112px",
-        "type": "dimension"
+        "value": 112,
+        "type": "number"
       },
       "spacing-120": {
-        "value": "120px",
-        "type": "dimension"
+        "value": 120,
+        "type": "number"
       },
       "spacing-128": {
-        "value": "128px",
-        "type": "dimension"
+        "value": 128,
+        "type": "number"
       },
       "spacing-144": {
-        "value": "144px",
-        "type": "dimension"
+        "value": 144,
+        "type": "number"
       },
       "spacing-160": {
-        "value": "160px",
-        "type": "dimension"
+        "value": 160,
+        "type": "number"
       },
       "spacing-192": {
-        "value": "192px",
-        "type": "dimension"
+        "value": 192,
+        "type": "number"
       },
       "spacing-244": {
-        "value": "244px",
-        "type": "dimension"
+        "value": 244,
+        "type": "number"
       },
       "spacing-256": {
-        "value": "256px",
-        "type": "dimension"
+        "value": 256,
+        "type": "number"
       },
       "spacing-380": {
-        "value": "380px",
-        "type": "dimension"
+        "value": 380,
+        "type": "number"
       }
     },
     "icon": {
       "1x": {
-        "value": "20px",
-        "type": "dimension"
+        "value": 20,
+        "type": "number"
       },
       "2x": {
-        "value": "32px",
-        "type": "dimension"
+        "value": 32,
+        "type": "number"
       }
     }
   },
   "Sizes/m": {
     "border-radius": {
       "radius-4": {
-        "value": "4px",
-        "type": "dimension"
+        "value": 4,
+        "type": "number"
       },
       "radius-6": {
-        "value": "6px",
-        "type": "dimension"
+        "value": 6,
+        "type": "number"
       },
       "radius_8": {
-        "value": "8px",
-        "type": "dimension"
+        "value": 8,
+        "type": "number"
       },
       "radius_10": {
-        "value": "10px",
-        "type": "dimension"
+        "value": 10,
+        "type": "number"
       },
       "radius_12": {
-        "value": "12px",
-        "type": "dimension"
+        "value": 12,
+        "type": "number"
       },
       "radius_16": {
-        "value": "16px",
-        "type": "dimension"
+        "value": 16,
+        "type": "number"
       },
       "radius_20": {
-        "value": "20px",
-        "type": "dimension"
+        "value": 20,
+        "type": "number"
       },
       "radius_24": {
-        "value": "24px",
-        "type": "dimension"
+        "value": 24,
+        "type": "number"
       },
       "radius_full": {
-        "value": "999px",
-        "type": "dimension"
+        "value": 999,
+        "type": "number"
       }
     },
     "spacing": {
       "spacing-0": {
-        "value": "0px",
-        "type": "dimension"
+        "value": 0,
+        "type": "number"
       },
       "spacing-2": {
-        "value": "2px",
-        "type": "dimension"
+        "value": 2,
+        "type": "number"
       },
       "spacing-4": {
-        "value": "4px",
-        "type": "dimension"
+        "value": 4,
+        "type": "number"
       },
       "spacing-8": {
-        "value": "8px",
-        "type": "dimension"
+        "value": 8,
+        "type": "number"
       },
       "spacing-12": {
-        "value": "12px",
-        "type": "dimension"
+        "value": 12,
+        "type": "number"
       },
       "spacing-16": {
-        "value": "16px",
-        "type": "dimension"
+        "value": 16,
+        "type": "number"
       },
       "spacing-18": {
-        "value": "18px",
-        "type": "dimension"
+        "value": 18,
+        "type": "number"
       },
       "spacing-20": {
-        "value": "20px",
-        "type": "dimension"
+        "value": 20,
+        "type": "number"
       },
       "spacing-24": {
-        "value": "24px",
-        "type": "dimension"
+        "value": 24,
+        "type": "number"
       },
       "spacing-28": {
-        "value": "28px",
-        "type": "dimension"
+        "value": 28,
+        "type": "number"
       },
       "spacing-32": {
-        "value": "32px",
-        "type": "dimension"
+        "value": 32,
+        "type": "number"
       },
       "spacing-36": {
-        "value": "36px",
-        "type": "dimension"
+        "value": 36,
+        "type": "number"
       },
       "spacing-40": {
-        "value": "40px",
-        "type": "dimension"
+        "value": 40,
+        "type": "number"
       },
       "spacing-48": {
-        "value": "48px",
-        "type": "dimension"
+        "value": 48,
+        "type": "number"
       },
       "spacing-56": {
-        "value": "56px",
-        "type": "dimension"
+        "value": 56,
+        "type": "number"
       },
       "spacing-64": {
-        "value": "64px",
-        "type": "dimension"
+        "value": 64,
+        "type": "number"
       },
       "spacing-72": {
-        "value": "72px",
-        "type": "dimension"
+        "value": 72,
+        "type": "number"
       },
       "spacing-80": {
-        "value": "80px",
-        "type": "dimension"
+        "value": 80,
+        "type": "number"
       },
       "spacing-96": {
-        "value": "96px",
-        "type": "dimension"
+        "value": 96,
+        "type": "number"
       },
       "spacing-112": {
-        "value": "112px",
-        "type": "dimension"
+        "value": 112,
+        "type": "number"
       },
       "spacing-120": {
-        "value": "120px",
-        "type": "dimension"
+        "value": 120,
+        "type": "number"
       },
       "spacing-128": {
-        "value": "128px",
-        "type": "dimension"
+        "value": 128,
+        "type": "number"
       },
       "spacing-144": {
-        "value": "144px",
-        "type": "dimension"
+        "value": 144,
+        "type": "number"
       },
       "spacing-160": {
-        "value": "160px",
-        "type": "dimension"
+        "value": 160,
+        "type": "number"
       },
       "spacing-192": {
-        "value": "192px",
-        "type": "dimension"
+        "value": 192,
+        "type": "number"
       },
       "spacing-244": {
-        "value": "244px",
-        "type": "dimension"
+        "value": 244,
+        "type": "number"
       },
       "spacing-256": {
-        "value": "256px",
-        "type": "dimension"
+        "value": 256,
+        "type": "number"
       },
       "spacing-380": {
-        "value": "380px",
-        "type": "dimension"
+        "value": 380,
+        "type": "number"
       }
     },
     "icon": {
       "1x": {
-        "value": "16px",
-        "type": "dimension"
+        "value": 16,
+        "type": "number"
       },
       "2x": {
-        "value": "28px",
-        "type": "dimension"
+        "value": 28,
+        "type": "number"
       }
     }
   },
   "Sizes/s": {
     "border-radius": {
       "radius-4": {
-        "value": "4px",
-        "type": "dimension"
+        "value": 4,
+        "type": "number"
       },
       "radius-6": {
-        "value": "6px",
-        "type": "dimension"
+        "value": 6,
+        "type": "number"
       },
       "radius_8": {
-        "value": "8px",
-        "type": "dimension"
+        "value": 8,
+        "type": "number"
       },
       "radius_10": {
-        "value": "10px",
-        "type": "dimension"
+        "value": 10,
+        "type": "number"
       },
       "radius_12": {
-        "value": "12px",
-        "type": "dimension"
+        "value": 12,
+        "type": "number"
       },
       "radius_16": {
-        "value": "16px",
-        "type": "dimension"
+        "value": 16,
+        "type": "number"
       },
       "radius_20": {
-        "value": "20px",
-        "type": "dimension"
+        "value": 20,
+        "type": "number"
       },
       "radius_24": {
-        "value": "24px",
-        "type": "dimension"
+        "value": 24,
+        "type": "number"
       },
       "radius_full": {
-        "value": "999px",
-        "type": "dimension"
+        "value": 999,
+        "type": "number"
       }
     },
     "spacing": {
       "spacing-0": {
-        "value": "0px",
-        "type": "dimension"
+        "value": 0,
+        "type": "number"
       },
       "spacing-2": {
-        "value": "2px",
-        "type": "dimension"
+        "value": 2,
+        "type": "number"
       },
       "spacing-4": {
-        "value": "4px",
-        "type": "dimension"
+        "value": 4,
+        "type": "number"
       },
       "spacing-8": {
-        "value": "8px",
-        "type": "dimension"
+        "value": 8,
+        "type": "number"
       },
       "spacing-12": {
-        "value": "12px",
-        "type": "dimension"
+        "value": 12,
+        "type": "number"
       },
       "spacing-16": {
-        "value": "16px",
-        "type": "dimension"
+        "value": 16,
+        "type": "number"
       },
       "spacing-18": {
-        "value": "18px",
-        "type": "dimension"
+        "value": 18,
+        "type": "number"
       },
       "spacing-20": {
-        "value": "20px",
-        "type": "dimension"
+        "value": 20,
+        "type": "number"
       },
       "spacing-24": {
-        "value": "24px",
-        "type": "dimension"
+        "value": 24,
+        "type": "number"
       },
       "spacing-28": {
-        "value": "28px",
-        "type": "dimension"
+        "value": 28,
+        "type": "number"
       },
       "spacing-32": {
-        "value": "32px",
-        "type": "dimension"
+        "value": 32,
+        "type": "number"
       },
       "spacing-36": {
-        "value": "36px",
-        "type": "dimension"
+        "value": 36,
+        "type": "number"
       },
       "spacing-40": {
-        "value": "40px",
-        "type": "dimension"
+        "value": 40,
+        "type": "number"
       },
       "spacing-48": {
-        "value": "48px",
-        "type": "dimension"
+        "value": 48,
+        "type": "number"
       },
       "spacing-56": {
-        "value": "56px",
-        "type": "dimension"
+        "value": 56,
+        "type": "number"
       },
       "spacing-64": {
-        "value": "64px",
-        "type": "dimension"
+        "value": 64,
+        "type": "number"
       },
       "spacing-72": {
-        "value": "72px",
-        "type": "dimension"
+        "value": 72,
+        "type": "number"
       },
       "spacing-80": {
-        "value": "80px",
-        "type": "dimension"
+        "value": 80,
+        "type": "number"
       },
       "spacing-96": {
-        "value": "96px",
-        "type": "dimension"
+        "value": 96,
+        "type": "number"
       },
       "spacing-112": {
-        "value": "112px",
-        "type": "dimension"
+        "value": 112,
+        "type": "number"
       },
       "spacing-120": {
-        "value": "120px",
-        "type": "dimension"
+        "value": 120,
+        "type": "number"
       },
       "spacing-128": {
-        "value": "128px",
-        "type": "dimension"
+        "value": 128,
+        "type": "number"
       },
       "spacing-144": {
-        "value": "144px",
-        "type": "dimension"
+        "value": 144,
+        "type": "number"
       },
       "spacing-160": {
-        "value": "160px",
-        "type": "dimension"
+        "value": 160,
+        "type": "number"
       },
       "spacing-192": {
-        "value": "192px",
-        "type": "dimension"
+        "value": 192,
+        "type": "number"
       },
       "spacing-244": {
-        "value": "244px",
-        "type": "dimension"
+        "value": 244,
+        "type": "number"
       },
       "spacing-256": {
-        "value": "256px",
-        "type": "dimension"
+        "value": 256,
+        "type": "number"
       },
       "spacing-380": {
-        "value": "380px",
-        "type": "dimension"
+        "value": 380,
+        "type": "number"
       }
     },
     "icon": {
       "1x": {
-        "value": "12px",
-        "type": "dimension"
+        "value": 12,
+        "type": "number"
       },
       "2x": {
-        "value": "24px",
-        "type": "dimension"
+        "value": 24,
+        "type": "number"
       }
     }
   },
