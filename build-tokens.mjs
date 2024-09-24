@@ -3,15 +3,7 @@ import { register } from '@tokens-studio/sd-transforms';
 
 // sd-transforms, 2nd parameter for options can be added
 // See docs: https://github.com/tokens-studio/sd-transforms
-register(StyleDictionary, {
-  expand: {
-    composition: true,
-    typography: false,
-    border: false,
-    shadow: false,
-  },
-  excludeParentKeys: false,
-});
+register(StyleDictionary);
 
 const sd = new StyleDictionary({
   source: ['design.tokens.json'],
@@ -38,17 +30,6 @@ const sd = new StyleDictionary({
         {
           destination: 'variables.js',
           format: 'javascript/es6',
-        },
-      ],
-    },
-    json: {
-      buildPath: 'build/json/',
-      prefix: '',
-      transformGroup: 'tokens-studio',
-      files: [
-        {
-          destination: 'variables.json',
-          format: 'json',
         },
       ],
     },
